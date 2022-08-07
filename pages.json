@@ -1,0 +1,126 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home", //首页
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/mall/mall", //商城
+			"style": {
+				"navigationBarTitleText": "积分商城",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		{
+			"path": "pages/my/my", //我的页面
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/lottery/lottery", //抽奖
+			"style": {
+				"navigationBarTitleText": "活动抽奖",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/lottery/add",
+			"style": {
+				"navigationBarTitleText": "发起抽奖",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/lottery/detail", //抽奖详情
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "邮箱登录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/forget/forget",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式（list 的索引项）
+	// 	"list": [{
+	// 		"name": "test", //模式名称
+	// 		"path": "pages/index/index" //启动页面，必选
+	// 	}]
+	// },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "隔江明月照莲华",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#515151",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		// "height": "50px",
+		// "fontSize": "10px",
+		// "iconWidth": "24px",
+		// "spacing": "3px",
+		// "iconfontSrc": "static/iconfont.ttf", // app tabbar 字体.ttf文件路径 app 3.4.4+
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/buttom/home.png",
+				"selectedIconPath": "static/buttom/home2.png",
+				"text": "首页"
+				// "iconfont": { // 优先级高于 iconPath，该属性依赖 tabbar 根节点的 iconfontSrc
+				//   "text": "\ue102",
+				//   "selectedText": "\ue103",
+				//   "fontSize": "17px",
+				//   "color": "#000000",
+				//   "selectedColor": "#0000ff"
+				// }
+			},
+			{
+				"pagePath": "pages/lottery/lottery",
+				"iconPath": "static/buttom/lottery.png",
+				"selectedIconPath": "static/buttom/lottery2.png",
+				"text": "抽奖"
+			},
+			{
+				"pagePath": "pages/mall/mall",
+				"iconPath": "static/buttom/mall.png",
+				"selectedIconPath": "static/buttom/mall2.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/buttom/my.png",
+				"selectedIconPath": "static/buttom/cat.png",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "hash": "a9b713da",
+  "browserHash": "0e2378eb",
+  "optimized": {
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "ac9c8681",
+      "needsInterop": true
+    },
+    "axios/lib/core/settle": {
+      "src": "../../node_modules/axios/lib/core/settle.js",
+      "file": "axios_lib_core_settle.js",
+      "fileHash": "2eb8e306",
+      "needsInterop": true
+    },
+    "axios/lib/helpers/buildURL": {
+      "src": "../../node_modules/axios/lib/helpers/buildURL.js",
+      "file": "axios_lib_helpers_buildURL.js",
+      "fileHash": "2a585493",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-CLWJMTVJ": {
+      "file": "chunk-CLWJMTVJ.js"
+    },
+    "chunk-RHW2JMV5": {
+      "file": "chunk-RHW2JMV5.js"
+    },
+    "chunk-3E4IGYFS": {
+      "file": "chunk-3E4IGYFS.js"
+    }
+  }
+}

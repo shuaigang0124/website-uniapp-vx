@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["dep:axios_lib_core_settle"],
+  "sourcesContent": ["export default require(\"./node_modules/axios/lib/core/settle.js\");"],
+  "mappings": ";;;;;;;;;AAAA;AAAA;AAAA,IAAO,gCAAQ;",
+  "names": []
+}
